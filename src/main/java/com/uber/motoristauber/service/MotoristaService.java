@@ -1,15 +1,16 @@
 package com.uber.motoristauber.service;
 
+import java.util.List;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.uber.motoristauber.dto.MotoristaDTO;
 import com.uber.motoristauber.exception.ResourceNotFoundException;
 import com.uber.motoristauber.model.Motorista;
 import com.uber.motoristauber.repository.MotoristaRepository;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 @Service
 public class MotoristaService {
