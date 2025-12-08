@@ -52,8 +52,8 @@ public class Aplicativo {
     
 
 
-    public Integer getIdAplicativo() { return id_aplicativo; }
-    public void setIdAplicativo(Integer idAplicativo) { this.id_aplicativo = idAplicativo; }
+    public Integer getid_aplicativo() { return id_aplicativo; }
+    public void setIdAplicativo(Integer id_aplicativo) { this.id_aplicativo = id_aplicativo; }
 
     public String getNom_aplicativo() { return nom_aplicativo; }
     public void setNom_aplicativo(String nom_aplicativo) { this.nom_aplicativo = nom_aplicativo; }
@@ -70,11 +70,11 @@ public class Aplicativo {
     public List<Corrida> getCorridas() { return corridas; }
     public void setCorridas(List<Corrida> corridas) { this.corridas = corridas; }
 
-    public Integer getId_aplicativo() {
+    public Integer getoid_aplicativo() {
         return id_aplicativo;
     }
 
-    public void setId_aplicativo(Integer id_aplicativo) {
+    public void setid_aplicativo(Integer id_aplicativo) {
         this.id_aplicativo = id_aplicativo;
     }
 }

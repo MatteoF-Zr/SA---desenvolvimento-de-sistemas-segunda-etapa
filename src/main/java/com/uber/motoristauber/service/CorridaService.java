@@ -103,7 +103,7 @@ public class CorridaService {
         dto.setDes_corrida(c.getDes_corrida());
         dto.setVal_corrida(c.getVal_corrida());
         if (c.getMotorista() != null) dto.setId_motorista(c.getMotorista().getId_motorista());
-        if (c.getAplicativo() != null) dto.setId_aplicativo(c.getAplicativo().getId_aplicativo());
+        if (c.getAplicativo() != null) dto.setId_aplicativo(c.getAplicativo().getid_aplicativo());
         return dto;
     }
 }

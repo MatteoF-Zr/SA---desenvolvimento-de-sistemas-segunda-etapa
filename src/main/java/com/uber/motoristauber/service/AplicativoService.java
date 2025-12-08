@@ -77,7 +77,7 @@ public class AplicativoService {
 
     private AplicativoDTO toDTO(Aplicativo a) {
         AplicativoDTO dto = new AplicativoDTO();
-        dto.setIdAplicativo(a.getIdAplicativo());
+        dto.setIdAplicativo(a.getid_aplicativo());
         dto.setNom_aplicativo(a.getNom_aplicativo());
         dto.setTax_plataforma(a.getTax_plataforma());
         dto.setTax_cancelamento(a.getTax_cancelamento());
