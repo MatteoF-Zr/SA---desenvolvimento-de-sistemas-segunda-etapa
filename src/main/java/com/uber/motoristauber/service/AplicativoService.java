@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.uber.motoristauber.dto.AplicativoDTO;
-import com.uber.motoristauber.exception.ResourceNotFoundException;
+import com.uber.motoristauber.exceptions.ResourceNotFoundException;
 import com.uber.motoristauber.model.Aplicativo;
 import com.uber.motoristauber.repository.AplicativoRepository;
 
